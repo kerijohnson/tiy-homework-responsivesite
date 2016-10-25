@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+}
+
 body {
 max-width: 960px;
 margin: 0 auto;
@@ -16,7 +20,7 @@ margin: 0 auto;
   font-size: 16px;
   color: gray;
   float: left;
-  padding-top: 5px;
+  padding-top: 20px;
 }
 
 ul a {
@@ -25,7 +29,6 @@ ul a {
 }
 
 .logomenu li {
-
   display: inline;
 }
 
@@ -68,68 +71,202 @@ position: relative;
   float: left;
   display: inline;
 }*/
-.threecolumn {
+
+.main {
   margin-left: 15%;
   margin-right: 15%;
 }
 
-.topboxleft {
-width: 32%;
-height: 200px;
+.column {
+  width: 32%;
+  margin-left: 1%;
+  float: left;
+}
+
+.greenbox {
 background-color: #519251;
-margin-left: 1%;
-float: left;
-display: inline;
 }
 
-.topboxmiddle {
-width: 32%;
-height: 200px;
+.bluebox {
 background-color: blue;
-margin-left: 1%;
-float: left;
-display: inline;
 }
 
-.topboxright {
-width: 32%;
-height: 200px;
+.blackbox {
 background-color: black;
-margin-left: 1%;
-float: left;
-display: inline;
 }
+
+ul {
+  margin: 0;
+}
+
+.subtext {
+  background-color: lightgray;
+  float: left;
+text-align: center;}
+
+.personal {
+  font-family: sans-serif;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  padding-top: 40px;
+}
+
+.five {
+  font-family: sans-serif;
+  font-size: 64px;
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.permonthleft {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  padding-bottom: 20px;
+  opacity: .5;
+}
+
+.list {
+  border-bottom: 1px solid black;
+  color: black;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.whitebox {
+  background-color: white;
+  position: relative;
+  width: 100%;
+  height: 100px;
+  float: left;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.small {
+  font-family: sans-serif;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  padding-top: 40px;
+}
+
+.twentyfive {
+  font-family: sans-serif;
+  font-size: 64px;
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.permonthmiddle {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  padding-bottom: 20px;
+  opacity: .5;
+}
+
+.enterprise {
+  font-family: sans-serif;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  padding-top: 40px;
+}
+
+.fortyfive {
+  font-family: sans-serif;
+  font-size: 64px;
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.permonthright {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  padding-bottom: 20px;
+  opacity: .5;
+}
+
+.columnlower {
+  width: 49%;
+  margin: 1%;
+}
+.bottomleft {
+  height: 300px;
+  background-color: white;
+  float: left;
+  position: relative;
+  left: 100px;
+  margin-top: 50px;
+}
+.bottomleft h4{
+  font-family: sans-serif;
+  color: black;
+}
+
+.bottomleft p {
+  font-family: sans-serif;
+  color: gray;
+  font-size: 16px;
+}
+
+.bottomright {
+  float: left;
+  height: 300px;
+  background-color: white;
+  float: left;
+  position: relative;
+  left: 100px;
+  margin-top: 50px;
+}
+.bottomright h4{
+  font-family: sans-serif;
+  color: black;
+}
+
+.bottomright p {
+  font-family: sans-serif;
+  color: gray;
+  font-size: 16px;
+}
+
+
 
 @media (min-width: 768px) and (max-width: 978px) {
-  .threecolumn {
+  .main {
     margin-left: 0%;
     margin-right: 0%;}
-
-    .topboxleft {
-      margin: 0px;
-    }
-}
+  }
 
 @media (max-width: 767px) {
-  .threecolumn {
+  .main {
     margin-left: 0%;
-    margin-right: 0%;}
-
-  .topboxleft {
-    clear:both;
-    width: 100%;
-    margin: 0px;
+    margin-right: 0%;
   }
 
-  .topboxmiddle {
-    clear:both;
+  .column {
     width: 100%;
-    margin: 0px;
-  }
-  .topboxright {
-    clear:both;
-    width: 100%;
-    margin: 0px;
+    float: none;
+    margin: 0;
   }
 
 }
